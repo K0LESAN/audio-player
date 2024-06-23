@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: 58px;
+  padding: 9px 16px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.wrapper__inner {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  .wrapper {
+    background-color: white;
+  }
+}
